@@ -4,8 +4,6 @@ target_include_directories(ssd1306_pico INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-message("pooka")
-
 target_sources(ssd1306_pico INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/ssd1306.c
 )
