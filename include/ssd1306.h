@@ -16,7 +16,7 @@ typedef enum SSD1306_Size {
     SSD1306_128x32
 } SSD1306_Size;
 
-// Display functions:
+// Initialize the display. 
 SSD1306* init_display(SSD1306_Size size, uint scl_pin, uint sda_pin);
 
 void clear(SSD1306* inst);
